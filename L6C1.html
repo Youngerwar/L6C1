@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title> Lesson 6 </title>
+    <style>
+        body {
+            background-image: url("bg.jpeg");
+            background-repeat: no-repeat;
+            background-size: cover;
+            /* background-color: rgba(0, 0, 0, 0.5); */
+        }
+
+        p {
+            font-weight: bolder;
+        }
+
+        table {
+            border-collapse: collapse;
+            /* width: 100%; */
+        }
+
+        th,
+        td {
+            padding: 10px;
+            text-align: center;
+        }
+
+        th {
+            background-color: white;
+            font-weight: bold;
+        }
+
+        tr:nth-child(even) {
+            background-color: #f9f9f9;
+        }
+
+        tr:hover {
+            background-color: #e5e5e5;
+        }
+
+        select {
+            width: 150px;
+            padding: 8px;
+            font-size: 16px;
+            border: 1px solid #ccc;
+            border-radius: 4px;
+            appearance: none;
+            background: url("down_arrow.png") no-repeat right center;
+            background-size: 20px;
+        }
+
+        select:hover {
+            border-color: #999;
+        }
+
+        select:focus {
+            outline: none;
+            border-color: #555;
+            box-shadow: 0 0 5px rgba(85, 85, 85, 0.3);
+        }
+    </style>
+</head>
+
+<body>
+    
+    <center>
+        <h1>Review of usage of "table" Tag</h1>
+        <table width="500" border="1">
+            <tr>
+                <td>Pie</td>
+                <td>Coke</td>
+                <td>Salad</td>
+            </tr>
+            <tr>
+                <td>$3</td>
+                <td>$1</td>
+                <td>$4</td>
+            </tr>
+        </table>
+    </center>
+    <br><br><br><br>
+    <center>
+        <table width="500" border="1" >
+            <tr>
+                <td>Name</td>
+                <td>Enoch</td>
+            </tr>
+            <tr>
+                <td>Age</td>
+                <td>18</td>
+            </tr>
+            <tr>
+                <td>Gender</td>
+                <td>Male</td>
+                
+            </tr>
+        </table>
+    </center>
+</body>
+</html>
